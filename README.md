@@ -5,7 +5,7 @@ Nextflow pipe line to analysed small RNA high throutput data sets.
 
 General Description: Cutadapt (Martin, 2011) was used to trim adapter sequences from sRNA-seq reads and 18–30-base sequences that contained an adapter were retained. The trimmed sequences were aligned to the Arabidopsis thaliana TAIR10 genome (Lamesch et al., 2012) with STAR (Dobin et al., 2013) requiring no mismatches and allowing ≤100 multiple end-to-end alignments. Resulting SAM files were then processed with the readmapIO.py script to re-assign multimappers with a “rich-get-richer” algorithm as previously described (Schon et al., 2018). Output bedFiles were sorted, condensed and normalized for total genome-matching reads. The BEDtools map function (Quinlan and Hall, 2010) was then used to quantify sum of the normalised Reads per million mapping to TAIR10 annotated Transposable elements (TEs). Statistical analyses and associated figures were generated with the R statistical computing package (R Core Team, 2018).
 
-Required softwares: You will need the following software: 
+Required softwares: You will need the following software, please change the nextflow config file if you got higher or lower versions of software:
 1. Cutadapt (cutadapt/1.18-foss-2018b-Python-2.7.15) 
 2. STAR (star/2.7.1a-foss-2018b) 
 3. SAMTools (samtools/1.9-foss-2018b) 

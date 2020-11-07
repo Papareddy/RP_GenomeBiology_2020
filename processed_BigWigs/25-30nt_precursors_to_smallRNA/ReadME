@@ -1,5 +1,5 @@
 
-24nt siRNAs cotranscriptionally synthesised by RNA Pol IV and RDR2 (~25-30nt) and are robustly diced in 24mers by DICERs. 
+24nt siRNAs cotranscriptionally synthesised by RNA Pol IV and RDR2 (~25-30nt) and are robustly diced into 24mers by DICERs. 
 These 25-30nt precursors are trancient and not seen in WT sRNAseq libraries but can be seen  when DICERS are mutated.
 
 These precursors can serve as a proxy to see active RNA Pol IV mediated transcription of 24nt siRNAs.

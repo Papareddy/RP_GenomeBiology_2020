@@ -6,7 +6,7 @@
 **********************/
 params.output = "results"
 params.files = "/PATH/TO/FASTQs/*.fastq"
-params.fasta_dna = "./Plotnikova.2019/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa"
+params.fasta_dna = "./Arabidopsis_thaliana.TAIR10.dna.toplevel.fa"
 params.adapt = "AGATCGGAAGA"
 //STAR
 params.mismatch = 0
